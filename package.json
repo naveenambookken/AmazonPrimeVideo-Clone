@@ -1,5 +1,5 @@
 {
-  "homepage": "http://naveenambookken.github.io/Amazon_Video_App-Reactjs",
+  "homepage": "http://naveenambookken.github.io/AmazonPrimeVideo-Clone",
   "name": "amazon-prime-video",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^3.2.1"
+  }
 }

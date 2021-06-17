@@ -43,7 +43,7 @@ function Slider() {
         >
           <img className="slide-image" src={imageUrl+slide.backdrop_path} alt="" />
           <h2 className="slide-title">{slide.name ? slide.name : slide.title}</h2>
-          {/* <h5 className="slide-text">{slide.overview}</h5> */}
+          <h5 className="slide-text">{slide.overview}</h5>
         </div>
       ))}
       </section>
