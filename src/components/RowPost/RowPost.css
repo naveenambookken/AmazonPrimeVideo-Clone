@@ -1,0 +1,28 @@
+.row{
+    margin-right: 0px;
+    margin-left: 20px;
+    color: #fff;
+}
+h5{
+    margin-top: 20px;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.posters::-webkit-scrollbar{
+    display: none;
+    
+}
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+
+}
+.smallposter{
+    max-height: 150px;
+    margin-right: 10px;
+
+}
