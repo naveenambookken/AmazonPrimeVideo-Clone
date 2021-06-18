@@ -9,7 +9,8 @@ h5{
 .posters{
     display: flex;
     overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-y: hidden;  
+    margin-bottom: 10px;
     
 }
 .posters::-webkit-scrollbar{
@@ -25,4 +26,12 @@ h5{
     max-height: 150px;
     margin-right: 10px;
 
+}
+
+.poster:hover{
+    transform: scale(1.1);
+}
+
+.smallposter:hover{
+    transform: scale(1.1);
 }
