@@ -41,9 +41,15 @@ h5{
 }
 .movie-name{
 font-size: medium;
+cursor: pointer;
 font-weight: 600;
 padding: 5px;
 margin: 0px;
+overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 .movie-year{
     margin: 0px;
@@ -55,6 +61,22 @@ margin: 0px;
     position: absolute;
     top: 60%;
     left: 0px;
+    cursor: pointer;
+}
+.plusbtn{
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    right: 10px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+.plusbtntext{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
 }
 .poster:hover{
     opacity: 0.3;

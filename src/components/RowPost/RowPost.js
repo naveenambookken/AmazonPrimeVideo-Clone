@@ -33,6 +33,7 @@ useEffect(() => {
                   <div className="poster-view">
                     <p className="movie-name">{itm.title ? itm.title : itm.name}</p>
                     <p className="movie-year">{itm.release_date}</p>
+                    <div className="plusbtn"><p className="plusbtntext">+</p></div>
                   </div>
                 </div>
             
