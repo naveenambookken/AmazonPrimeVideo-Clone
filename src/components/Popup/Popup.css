@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.popupbody{
+    max-width: 100%;
+    max-height: 100%;
+    padding:0px 20px 20px 20px;
+    background-color: rgba(32, 32, 32, 0.63);
+    border-radius: 20px;
+}
+.close{
+    color: gainsboro;
+  margin: 2px; 
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+.close:hover{
+    color:whitesmoke
+}

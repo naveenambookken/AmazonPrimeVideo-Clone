@@ -78,6 +78,16 @@ overflow: hidden;
     padding: 0px;
     margin: 0px;
 }
+.mainsection{
+    position: relative;
+}
+.popupwindow{
+    z-index: 40;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+}
 .poster:hover{
     opacity: 0.3;
 }
