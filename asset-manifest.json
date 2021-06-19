@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AmazonPrimeVideo-Clone/static/css/main.91cf1af0.chunk.css",
-    "main.js": "/AmazonPrimeVideo-Clone/static/js/main.78f6273f.chunk.js",
-    "main.js.map": "/AmazonPrimeVideo-Clone/static/js/main.78f6273f.chunk.js.map",
+    "main.css": "/AmazonPrimeVideo-Clone/static/css/main.8c9a3cfd.chunk.css",
+    "main.js": "/AmazonPrimeVideo-Clone/static/js/main.82e62dbc.chunk.js",
+    "main.js.map": "/AmazonPrimeVideo-Clone/static/js/main.82e62dbc.chunk.js.map",
     "runtime-main.js": "/AmazonPrimeVideo-Clone/static/js/runtime-main.98c23b69.js",
     "runtime-main.js.map": "/AmazonPrimeVideo-Clone/static/js/runtime-main.98c23b69.js.map",
     "static/js/2.938ad141.chunk.js": "/AmazonPrimeVideo-Clone/static/js/2.938ad141.chunk.js",
     "static/js/2.938ad141.chunk.js.map": "/AmazonPrimeVideo-Clone/static/js/2.938ad141.chunk.js.map",
     "index.html": "/AmazonPrimeVideo-Clone/index.html",
-    "static/css/main.91cf1af0.chunk.css.map": "/AmazonPrimeVideo-Clone/static/css/main.91cf1af0.chunk.css.map",
+    "static/css/main.8c9a3cfd.chunk.css.map": "/AmazonPrimeVideo-Clone/static/css/main.8c9a3cfd.chunk.css.map",
     "static/js/2.938ad141.chunk.js.LICENSE.txt": "/AmazonPrimeVideo-Clone/static/js/2.938ad141.chunk.js.LICENSE.txt",
     "static/media/Logo.3b38eec4.png": "/AmazonPrimeVideo-Clone/static/media/Logo.3b38eec4.png",
     "static/media/playbtn2.6f076243.png": "/AmazonPrimeVideo-Clone/static/media/playbtn2.6f076243.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.98c23b69.js",
     "static/js/2.938ad141.chunk.js",
-    "static/css/main.91cf1af0.chunk.css",
-    "static/js/main.78f6273f.chunk.js"
+    "static/css/main.8c9a3cfd.chunk.css",
+    "static/js/main.82e62dbc.chunk.js"
   ]
 }
