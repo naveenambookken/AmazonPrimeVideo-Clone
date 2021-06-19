@@ -35,7 +35,7 @@ const NavBar = () => {
                 </li>
                 <li className="nav-item">
                   <a className="active" href="/#">
-                    TV ShowsName
+                    TV Shows
                   </a>
                 </li>
                 <li className="nav-item">

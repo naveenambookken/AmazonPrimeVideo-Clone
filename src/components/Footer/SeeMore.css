@@ -1,0 +1,29 @@
+.seemore,.backtotop{
+    height: 30px;
+    background-color: #37495f;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+.seemore{
+    margin: 20px;
+}
+.seemore-text,.backtotop-text{
+    color: white;
+    margin: 0px;
+    
+}
+.seemore-text{
+    font-weight: 600;
+}
+.footer{
+    height: 150px;
+    background-image: linear-gradient( #17529c00,#2f4f77, #232f3e);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.seemore:hover,.backtotop:hover{
+    opacity: .8;
+}

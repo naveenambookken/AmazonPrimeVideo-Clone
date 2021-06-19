@@ -3,7 +3,7 @@ import NavBar from './components/NavBar/NavBar'
 import Slider from './components/Banner/Slider'
 import RowPost from './components/RowPost/RowPost'
 import {Originals,Action,Comedy,Horror,Romance,Documentaries} from './urls';
-
+import SeeMore from './components/Footer/SeeMore'
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <RowPost title="Horror" url={Horror} small />
       <RowPost title="Romance" url={Romance} small />
       <RowPost title="Documentaries" url={Documentaries} small />
+      <SeeMore/>
     </div>
   );
 }
