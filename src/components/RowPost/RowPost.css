@@ -26,20 +26,24 @@ h5{
 }
 
 .poster{
-    max-height: 250px;
+    max-width: 166.66px;
+    height: 250px;
     z-index: 25;
     opacity: 1;
+    object-fit: fill;
 }
 
 
 .poster-view{
-    width: 100%;
+    position: relative;
+    max-width: 166.66px;
     height: 80px;
     background-color: #1c2631;
     
    
 }
 .movie-name{
+
 font-size: medium;
 cursor: pointer;
 font-weight: 600;
@@ -56,6 +60,7 @@ overflow: hidden;
     padding-left: 5px;
 }
 .playbtnimg{
+    display: inline-block;
     width: 50px;
     z-index: 30;
     position: absolute;
@@ -64,11 +69,10 @@ overflow: hidden;
     cursor: pointer;
 }
 .plusbtn{
-    display: inline-block;
     height: 50px;
     position: absolute;
-    top: 80%;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     padding: 0px;
     margin: 0px;
     cursor: pointer;
