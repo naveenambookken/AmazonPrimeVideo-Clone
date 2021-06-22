@@ -41,7 +41,7 @@ function Slider() {
           key={index}
           className={index === activeIndex ? "slides active" : "inactive"}
         >
-          <img className="slide-image" src={imageUrl+slide.backdrop_path} alt="" />
+          <img className="slide-image" src={imageUrl+slide.backdrop_path} alt="slider image" />
           <h2 className="slide-title">{slide.name ? slide.name : slide.title}</h2>
           <h5 className="slide-text">{slide.overview}</h5>
         </div>
