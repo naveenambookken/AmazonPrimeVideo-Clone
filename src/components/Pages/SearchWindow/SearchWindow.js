@@ -5,7 +5,8 @@ import playbtn from '../../Images/playbtn2.png'
 import axios from '../../../axios'
 import Popup from '../../Popup/Popup';
 import YouTube from 'react-youtube'
-import SeeMore from '../../Footer/SeeMore'
+import Loading from '../../Loading/Loading'
+
 
 function SearchWindow(props) {
 const [toplay, setToplay] = useState(false)
@@ -40,6 +41,7 @@ let playVideo=(id)=>{
         <div className="searchwindow">
             <h5 className="heading-search">Search</h5>
             <div className="searchbody">
+              <Loading className={` ${props.loading ? 'show' : 'hide' }`}/>
             {props.array.map((itm,k)=>{
                 return(
                     <div className="poster-body">
@@ -61,7 +63,7 @@ let playVideo=(id)=>{
             </div>
             </div>
             { props.message && <p className="message">{props.message}</p> }
-            <SeeMore/>
+            
         </div>
     )
 }

@@ -42,7 +42,6 @@ let fetchSearchResults=()=>{
       setSearchedData(response.data.results)
       setMessage(resultNotFoundMsg)
       setLoading(false)
-    console.log(response.data.results)
   }).catch((error)=>{
     if (axios.isCancel(error) || error){
       setLoading(false)
@@ -54,9 +53,9 @@ let fetchSearchResults=()=>{
   const query=(e)=>{
     const query=e.target.value;
      setqueryValue(query)
-     setLoading(true)
      setMessage('')
-    
+     e.preventDefault()
+     
   }
 let searchfind=()=>{
   setLoading(true)
@@ -121,10 +120,10 @@ let searchfind=()=>{
                     
                     <Link to="/Search">
                     <label>
-                      <img className="search-button" onClick={searchfind} src={searchbtn} alt="button" />
+                      <img type="submit" className="search-button" onClick={searchfind} src={searchbtn} alt="button" />
                       <input
                         className="search-bar"
-                        type="text"
+                        type="search"
                         placeholder="Search"
                         value={queryValue}
                         aria-label="Search"
