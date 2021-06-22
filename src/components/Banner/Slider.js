@@ -25,7 +25,7 @@ function Slider() {
     axios.get(`https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}&language=en-US`).then((response)=>{
       
       setsliderImagee([...response.data.results])
-      console.log(sliderImagee);
+      
     })
         
   }, [])// eslint-disable-line react-hooks/exhaustive-deps

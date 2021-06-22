@@ -5,6 +5,7 @@ import playbtn from '../../Images/playbtn2.png'
 import axios from '../../../axios'
 import Popup from '../../Popup/Popup';
 import YouTube from 'react-youtube'
+import SeeMore from '../../Footer/SeeMore'
 
 function SearchWindow(props) {
 const [toplay, setToplay] = useState(false)
@@ -60,7 +61,7 @@ let playVideo=(id)=>{
             </div>
             </div>
             { props.message && <p className="message">{props.message}</p> }
-
+            <SeeMore/>
         </div>
     )
 }
