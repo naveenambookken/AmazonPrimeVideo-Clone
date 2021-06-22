@@ -56,7 +56,7 @@ let fetchSearchResults=()=>{
      setqueryValue(query)
      setLoading(true)
      setMessage('')
-     console.log(query);
+    
   }
 let searchfind=()=>{
   setLoading(true)
